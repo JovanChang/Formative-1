@@ -1,11 +1,21 @@
+body {
+  background-image: url(background.jpg);
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #Box{
 background-color: darkblue;
 width:50px;
 height: 50px;
-
-
+position: absolute;
+bottom: 0px;
+right: 50px;
+color: white;
 }
+
 h1 {background-color: aqua;}
 #image{ 
     height: 100px;
