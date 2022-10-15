@@ -4,6 +4,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 #Box{
@@ -16,15 +17,12 @@ right: 50px;
 color: white;
 }
 
-h1 {background-color: aqua;}
+h1 {background-color: aqua;
+
+}
 #image{ 
     height: 100px;
     width: 100px;
-}
-
-input[type=text]{
-    border: 3px solid blue; 
-    border-radius: 4px;
 }
 
 input[type=text]:focus {

@@ -118,10 +118,18 @@
     <h2>Forms</h2>
     <form>
       <div>
-        <label> Input Box One </label>
-        <input type="text" />
+        <label for="text" class="form-label"> Input Box One </label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Type something here"
+        />
       </div>
       <div>
+        <label for="html" class="form-label"
+          >What is your favourite language</label
+        >
+        <div>
         <input type="radio" id="html" name="fav_language" value="HTML" />
         <label for="html">HTML</label><br />
         <input type="radio" id="css" name="fav_language" value="CSS" />
@@ -142,7 +150,7 @@
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
         <label for="vehicle3"> I have a boat</label>
       </div>
-      <input type="Submit" value="submit" />
+      <input type="Submit" class="btn btn-light" value="submit" />
     </form>
     <div id="Box">A box</div>
   </body>
